@@ -25,6 +25,7 @@ ps -ely
 Los UNIX identifican a los procesos con un Process ID (PID). LosPID van desde 0 a 32767.
 - S: state. 
   - D: Uninterruptible sleep
+  - I: Idle kernel thread
   - R: Running or runnable (en run queue) 
   - S: Interruptible sleep (esperando que   se complete un evento) 
   - T: Stopped, por señal SIGTOP o si está en siendo Traced.
