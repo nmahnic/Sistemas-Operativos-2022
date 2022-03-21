@@ -3,7 +3,7 @@
 Para resolver este inconveniente deben instalar "Tweaks"
 
 ```
-    sudo apt install gnome-tweak-tool
+sudo apt install gnome-tweak-tool
 ```
 
 Luego ejecutan 
