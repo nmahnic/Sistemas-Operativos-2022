@@ -46,6 +46,10 @@ Los UNIX identifican a los procesos con un Process ID (PID). LosPID van desde 0 
 - TIME: Tiempo de CPU acumulado (por el kernel y el proceso) hh:mm:ss.
 - CMD: comando ejecutado para crear el proceso.
 
+Se puede encontrar más información en el man:
+https://man7.org/linux/man-pages/man1/ps.1.html
+
+
 ## Ciclo de vida de un Proceso 
 #### TODO explicación
 ![Procesos ](https://github.com/nmahnic/Sistemas-Operativos-2022/blob/master/apuntes/img/procesos4.png)
