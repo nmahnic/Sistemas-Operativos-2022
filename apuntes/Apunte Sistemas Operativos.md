@@ -6,8 +6,7 @@
 - Deberían ponerse de acuerdo entre las diferentes aplicaciones en todo momento para acceder a ́areas de memoria sin interferirse una a otras, para configurar el hardware con determinadas propiedades y utilizarlo en forma serializada también.
 ¿Hace falta mas para darse cuenta que se necesita una capa tipo “man in the middle” que intermedie entre el hardware y las aplicaciones?
 
-![Arquitectura de un sistema de extremo a extremo](https://github.com/nmahnic/Sistemas-Operativos-2022/blob/master/img/sistop1.png)
-
+![Arquitectura de un sistema de extremo a extremo](https://github.com/nmahnic/Sistemas-Operativos-2022/blob/master/apuntes/img/sistop1.png)
 
 ## Primera Conclusión
 No importan tanto las características del hardware. Si lo que vamos a desarrollar está organizado en forma de diferentes tareas que ejecutan en forma concurrente, necesitamos una pieza de softwareque administre la forma en que los recursos de hardware se van a asignar a cada tarea (o proceso). De otra manera no existe protección entre tareas, y no se puede proveer sincronización entre los diferentes procesos para accedera un mismo recurso, por citar solo las problemáticas mas evidentes.
@@ -18,7 +17,7 @@ No importan tanto las características del hardware. Si lo que vamos a desarroll
 - Los principales recursos del sistema son la CPU, la Memoria, los dispositivos de entrada salida, y en caso de que haya algún sistema de storage, ́este se convierte también en un recurso a administrar.
 - Los usuarios de esos recursos son los procesos o tareas. Dicho de manera muy rudimentaria, los programas que se encuentran ejecutando en la memoria del sistema.
 
-![Diagrama General de un Sistema Operativo](https://github.com/nmahnic/Sistemas-Operativos-2022/blob/master/img/sistop2.png)
+![Diagrama General de un Sistema Operativo](https://github.com/nmahnic/Sistemas-Operativos-2022/blob/master/apuntes/img/sistop2.png)
 
 
 ## Scheduling de Procesos
@@ -83,4 +82,4 @@ Es el Sistema Operativo propiamente dicho. Típicamente se encarga de:
 - Gestionar servicios de sistema, como networking, Intercomunicación de procesos, etc.
 Trabaja en un estado de elevado nivel comparado con las aplicaciones gracias a las funciones de protección de memoria y recursos que poseen los procesadores modernos.Tiene un ́area propia de memoria y acceso completo al hardware. A este estado de sistema y su espacio de memoria se lo suele referir como "kernel space". Y por otra parte al espacio de memoria y estado de las aplicaciones se lo refiere como "user space".
 
-![El kernel](https://github.com/nmahnic/Sistemas-Operativos-2022/blob/master/img/sistop3.png)
+![El kernel](https://github.com/nmahnic/Sistemas-Operativos-2022/blob/master/apuntes/img/sistop3.png)

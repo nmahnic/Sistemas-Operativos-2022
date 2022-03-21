@@ -3,7 +3,7 @@ Los objetos que conforman la imagen de un programa (código, pila,y datos) está
 La (text section), la (data section) que contiene las variables globales, y demás secciones componen esta imagen. 
 Pero un proceso es bastante mas que eso. Es la instancia de ejecución de un programa en la memoria del sistema.
 
-![2 Procesos](https://github.com/nmahnic/Sistemas-Operativos-2022/blob/master/img/procesos1.png)
+![2 Procesos](https://github.com/nmahnic/Sistemas-Operativos-2022/blob/master/apuntes/img/procesos1.png)
 
 Un proceso involucra mucha información además de su código y sus datos:
 - Los file descriptors de los archivos abiertos por el programa,
@@ -14,13 +14,13 @@ Un proceso involucra mucha información además de su código y sus datos:
 - Estará ligado al usuario que lo ejecuta (tendrá sus permisos, sus variables de entorno, su HOME directory, etc)
 - La prioridad de ejecución (el % de tiempo de CPU que el kernel le asignará para su ejecución)
 
-![Espacio de memoria de un proceso](https://github.com/nmahnic/Sistemas-Operativos-2022/blob/master/img/procesos2.png)
+![Espacio de memoria de un proceso](https://github.com/nmahnic/Sistemas-Operativos-2022/blob/master/apuntes/img/procesos2.png)
 
 Para ver el estados de los procesos que están corriendo en la PC puede ejecutar
 ```
 ps -ely
 ```
-![Procesos ](https://github.com/nmahnic/Sistemas-Operativos-2022/blob/master/img/procesos3.png)
+![Procesos ](https://github.com/nmahnic/Sistemas-Operativos-2022/blob/master/apuntes/img/procesos3.png)
 
 Los UNIX identifican a los procesos con un Process ID (PID). LosPID van desde 0 a 32767.
 - S: state. 
@@ -47,7 +47,7 @@ Los UNIX identifican a los procesos con un Process ID (PID). LosPID van desde 0 
 
 ## Ciclo de vida de un Proceso 
 #### TODO explicación
-![Procesos ](https://github.com/nmahnic/Sistemas-Operativos-2022/blob/master/img/procesos4.png)
+![Procesos ](https://github.com/nmahnic/Sistemas-Operativos-2022/blob/master/apuntes/img/procesos4.png)
 
 
 ## Thread
