@@ -2,7 +2,7 @@
 
 ## ¿Que hace un sistema operativo?
 - CPU, memoria, dispositivos de Entrada Salida... Sin software, son meros circuitos electrónicos.
-- Firefox, Visual Studio Code, Slack, Telegram, VLC, spotify... Aplicaciones muy ́utiles. Pero si todas juntasquieren acceder al hardware... caos.
+- Firefox, Visual Studio Code, Slack, Telegram, VLC, spotify... Aplicaciones muy ́utiles. Pero si todas juntas quieren acceder al hardware... caos.
 - Deberían ponerse de acuerdo entre las diferentes aplicaciones en todo momento para acceder a ́areas de memoria sin interferirse una a otras, para configurar el hardware con determinadas propiedades y utilizarlo en forma serializada también.
 ¿Hace falta mas para darse cuenta que se necesita una capa tipo “man in the middle” que intermedie entre el hardware y las aplicaciones?
 
@@ -28,7 +28,7 @@ No importan tanto las características del hardware. Si lo que vamos a desarroll
 El Scheduler determina cuando y sobre cual de las CPUs ejecutar ́ancada uno de los procesos a fin de lograr el mejor rendimiento posibledel sistema.
 
 ### Sincronización de Procesos - singleCore
-- Cuando un proceso debe esperar la ocurrencia de un evento,o la disponibilidad de un recurso actualmente no disponible sepone a dormir para suspender su ejecución y liberar la CPU. Esta podrá eventualmente ser asignada a otro proceso.
+- Cuando un proceso debe esperar la ocurrencia de un evento,o la disponibilidad de un recurso actualmente no disponible se pone a dormir para suspender su ejecución y liberar la CPU. Esta podrá eventualmente ser asignada a otro proceso.
 - Cuando el recurso se pone disponible el proceso en poder dela CPU la cede al proceso que espera el recurso. 
 - Si esperaba un evento, la CPU le es devuelta al proceso dormido desde el handler de la interrupción que maneja el evento.
 
