@@ -25,7 +25,7 @@ No importan tanto las características del hardware. Si lo que vamos a desarroll
 - Un proceso necesita como para iniciar su ejecución dos elementos sin los cuales no le es posible operar: CPU, y Memoria.
 - En un sistema multitasking hay una cantidad de procesos en condiciones de ser ejecutados. Esta cantidad normalmente es mayor que la cantidad de CPUs que tiene el sistema.
 - El scheduler es el módulo del sistema operativo encargado de administrar la ejecución de los procesos, es decir, es quien les asigna uno de los recursos fundamentales: la CPU.
-El Scheduler determina cuando y sobre cual de las CPUs ejecutar ́ancada uno de los procesos a fin de lograr el mejor rendimiento posibledel sistema.
+El Scheduler determina cuando y sobre cual de las CPUs ejecutará en cada uno de los procesos a fin de lograr el mejor rendimiento posibledel sistema.
 
 ### Sincronización de Procesos - singleCore
 - Cuando un proceso debe esperar la ocurrencia de un evento,o la disponibilidad de un recurso actualmente no disponible se pone a dormir para suspender su ejecución y liberar la CPU. Esta podrá eventualmente ser asignada a otro proceso.
