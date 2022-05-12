@@ -1,0 +1,9 @@
+https://kencorner.com/ps-command-in-linux-ubuntu/
+
+https://www.programcreek.com/python/example/251/os.fork
+
+https://blog.eduonix.com/software-development/learn-operating-system-interaction-in-python/
+
+https://coderzcolumn.com/tutorials/python/signal-simple-guide-to-send-receive-and-handle-system-signals-in-python
+
+https://code.luasoftware.com/tutorials/linux/auto-start-python-script-on-boot-systemd/
