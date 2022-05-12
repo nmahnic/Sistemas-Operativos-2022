@@ -38,11 +38,11 @@ Un GPOS (General Purpose Operating System), es un sistema operativo que implemen
 
 
 ## UNIX
-- Escrito 99 % en un lenguaje específicamente diseñaado para escribir Sistemas Operativos en reemplazo del assembler: C.
-- Portable entre diferentes plataformas de hardware debido a laportabilidad nativa del C.
-- Su Arquitectura base de extrema simplicidad, lo hace poderoso,versátil e ideal para programadores.
-- Provee primitivas muy potentes que permiten construir programas complejos a partir de c ódigo relativamente simple.
-- Introduce el concepto de stream de bytes que permite tratar entidades de diferente origen y caracter ́ısticas bajo una simple interfaz com ́un. Se conoce como el paradigma “everything is afile”.
+- Escrito 99 % en un lenguaje específicamente diseñado para escribir Sistemas Operativos en reemplazo del assembler: C.
+- Portable entre diferentes plataformas de hardware debido a la portabilidad nativa del C.
+- Su Arquitectura base de extrema simplicidad, lo hace poderoso, versátil e ideal para programadores.
+- Provee primitivas muy potentes que permiten construir programas complejos a partir de código relativamente simple.
+- Introduce el concepto de stream de bytes que permite tratar entidades de diferente origen y características bajo una simple interfaz común. Se conoce como el paradigma “everything is afile”.
 - Provee una visión de máquina transparente a los detalles de hardware.
 - Provee un entorno de programación y ejecución multitarea y multiusuario, de bajo costo computacional y alta estabilidad y seguridad.
 - La potencia de cada programa no se debe al programa en sí mismo, sino a su relación con el resto de los programas alojados en el file system
