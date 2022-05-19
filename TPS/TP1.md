@@ -7,3 +7,10 @@ Se deben ejecutar desde la consola linux
 2. Crear una cuarta carpeta llamada "imgs" con screen de pantalla de la ejecucion en consola
 
 Luego enviar un mail al docente con el link del repositorio "nmahnic@pioix.edu.ar"
+
+Entregaron:
+- Ignacio Gonzalez : https://github.com/IgnacioNicolasGonzalez/SO-2022-TP1
+- Damian Delfino : https://github.com/DamiDelfino/SO-2022-TP1
+- Brian Delfino : https://github.com/BrianDelfino/SO-2022-TP1
+- Gerardo Gamboa : https://github.com/GerardoGamboa1/SO-2022-TP1
+- Nicolás Pacifico : https://github.com/NicoPac/SO-2022-TP1
