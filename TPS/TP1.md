@@ -14,3 +14,4 @@ Entregaron:
 - Brian Delfino : https://github.com/BrianDelfino/SO-2022-TP1
 - Gerardo Gamboa : https://github.com/GerardoGamboa1/SO-2022-TP1
 - Nicolás Pacifico : https://github.com/NicoPac/SO-2022-TP1
+- Federico Nieto : https://github.com/FedeNietoFarias/SO-2022-TP1
