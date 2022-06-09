@@ -10,4 +10,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.sendall(b"Hola soy un el CLIENTE PYTHON")
     data = s.recv(1024)
 
-print(f"Received {data!r}")
+print(f"Mensaje del Servidor: {data.decode('ascii')}")
