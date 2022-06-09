@@ -1,4 +1,3 @@
-// Ficheros de cabecera
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -9,9 +8,9 @@
 #include <fcntl.h> // for open
 #include <unistd.h> // for close
  
-//FunciÃ³n principal
+//Función principal
 int main(int argc, char **argv){
- 
+
     if(argc > 1){
     
         //Primer paso, definir variables
@@ -49,20 +48,39 @@ int main(int argc, char **argv){
         }
     
         //Paso5, aceptar conexiones
-        // while(1) {
+         while(1) {
             longitud_cliente = sizeof(struct sockaddr_in);
-            /* A continuaciÃ³n la llamada a accept() */
+            /* A continuación la llamada a accept() */
+            
             if ((fd2 = accept( fd,(struct sockaddr *)&client,(socklen_t *)&longitud_cliente ) ) == -1) {
                 printf("error en accept()\n");
                 exit(-1);
             }
 
-            fork()
             
-            send(fd2,"Bienvenido a mi servidor MASH.\n",31,0);
+            int pid = fork();
+            if(pid < 0){
+                perror("Cliente fork:");
+                close(fd2);
+                exit(1);
+            } else if(pid == 0) {
+
+                printf("PID PROCESSOR: %d\n", getpid());
+                char buffer[1024] = { 0 };
+                int valread = read(fd2, buffer, 1024);
+                printf("%s\n", buffer);
+
+                char* mensaje = "Te conectaste con MASH_SERVER";
+                send(fd2, mensaje, strlen(mensaje), 0);
+    
+                close(fd2); /* cierra fd2 */
+                exit(0);
+
+            }
+
+            printf("PID SERVER: %d\n", getpid());
             
-            close(fd2); /* cierra fd2 */
-        // }
+        }
         close(fd);
     } else {
         printf("NO se ingreso el puerto por parametro\n");

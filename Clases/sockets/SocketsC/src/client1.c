@@ -52,6 +52,9 @@ int main(int argc, char *argv[]) {
             printf("connect() error\n");
             exit(-1);
         }
+
+        char* mensaje = "Hola soy un el CLIENTE C";
+        send(fd, mensaje, strlen(mensaje), 0);
  
         if ((numbytes=recv(fd,buf,100,0)) == -1){
         /* llamada a recv() */
